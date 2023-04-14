@@ -52,7 +52,7 @@ function Login(){
           email,
           password,
         }
-      fetch("*",{
+      fetch("https://pizza-b-x3v8.onrender.com/",{
         method:"POST",
         body: JSON.stringify(data),
         headers: {
@@ -102,7 +102,7 @@ function Signin(){
               email,
               password,
             }
-          fetch("*",{
+          fetch("https://pizza-b-x3v8.onrender.com/",{
             method:"POST",
             body: JSON.stringify(data),
             headers: {
